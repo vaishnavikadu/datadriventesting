@@ -19,6 +19,7 @@ public class ExcelReadingPractice {
 		int activeSheetNumber = workbook.getActiveSheetIndex();
 		System.out.println("Total sheet : " + sheetCount);
 		System.out.println("Active sheet : " + activeSheetNumber);
+                System.out.println();
 		for (int i = 0; i < sheetCount; i++) {
 			System.out.println(workbook.getSheetName(i));
 		}
